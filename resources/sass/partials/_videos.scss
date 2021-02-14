@@ -1,0 +1,26 @@
+.videobox {
+    display: none;
+    width: 100%;
+    padding: 80px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(60, 63, 60, 0.95);
+    transition: opacity 4s;
+    backgr &:hover {
+        cursor: pointer;
+    }
+    i {
+        color: black;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        font-size: 2rem;
+    }
+}
+
+iframe {
+    border: none;
+    padding: 25px;
+}

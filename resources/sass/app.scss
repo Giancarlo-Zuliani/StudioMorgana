@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~bootstrap/scss/bootstrap';
+// Partials
+@import 'partials/_variables.scss';
+@import 'partials/_common.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_header.scss';
+@import 'partials/_footer.scss';
+@import 'partials/_main.scss';
+@import 'partials/_videos.scss';
+// Bootstrap
+.box {
+    color: red;
+    background-color: purple;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+main {
+    width: 80%;
+    margin: 20vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
